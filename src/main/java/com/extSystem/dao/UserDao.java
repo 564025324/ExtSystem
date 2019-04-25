@@ -1,6 +1,6 @@
 package com.extSystem.dao;
 
-import com.extSystem.generator.model.User;
+import com.extSystem.model.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

@@ -1,4 +1,4 @@
-package com.extSystem.generator.model;
+package com.extSystem.model;
 
 public class User {
     private Integer id;

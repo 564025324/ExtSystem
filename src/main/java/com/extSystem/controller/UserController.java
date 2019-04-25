@@ -1,7 +1,7 @@
 package com.extSystem.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.extSystem.generator.model.User;
+import com.extSystem.model.User;
 import com.extSystem.service.UserServer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

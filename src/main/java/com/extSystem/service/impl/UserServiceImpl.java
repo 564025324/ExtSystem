@@ -1,13 +1,11 @@
 package com.extSystem.service.impl;
 
 import com.extSystem.dao.UserDao;
-import com.extSystem.generator.mapper.UserMapper;
-import com.extSystem.generator.model.User;
+import com.extSystem.model.User;
 import com.extSystem.service.UserServer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Component
@@ -18,12 +16,12 @@ public class UserServiceImpl implements UserServer {
 
     @Override
     public List<User> selectAll() {
-//        return userDao.selectAll();
-        User u = userDao.selectByPrimaryId(1);
-        System.out.println(u);
-        List<User> list = new ArrayList<>();
-        list.add(u);
-        return list;
+        return userDao.selectAll();
+//        User u = userDao.selectByPrimaryId(1);
+//        System.out.println(u);
+//        List<User> list = new ArrayList<>();
+//        list.add(u);
+//        return list;
     }
 
 //    public PageInfo<User> selectAll(int pageNum, int pageSize) {
