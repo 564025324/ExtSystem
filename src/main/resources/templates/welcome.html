@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes"/>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title>主页</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="/webjars/bootstrap/4.3.1/css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="container">
+    <form action="login_in" method="post" class="form-horizontal"
+          role="form">
+        <div class="form-group">
+            <h2 class="col-sm-offset-5 col-sm-4" id="message">主页1</h2>
+        </div>
+        <!--<div class="form-group">-->
+        <!--<h1 id="message"></h1>-->
+        <!--</div>-->
+    </form>
+</div>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="/webjars/jquery/3.4.0/jquery.min.js"></script>
+<script src="/webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    var ss = [[${username}]];
+    console.log("ss = " + ss);
+    if (ss != null) {
+        addMessage("[" + ss + "]登陆成功！");
+    } else {
+        addMessage("登录失败");
+    }
+
+    function addMessage(message) {
+        $('#message').text(message);
+    }
+
+</script>
+
+</body>
+</html>
