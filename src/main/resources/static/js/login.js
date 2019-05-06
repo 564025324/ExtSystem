@@ -25,27 +25,39 @@ $(function () {
 // 登录
 function login() {
     $.ajax({
-        url: BASE_PATH + '/sso/login',
+        url: 'http://localhost:10088/login/clickLogin',
         type: 'POST',
         data: {
             username: $('#username').val(),
             password: $('#password').val(),
             rememberMe: $('#rememberMe').is(':checked'),
-            backurl: BACK_URL
+            // backurl: BACK_URL
         },
-        beforeSend: function () {
-
-        },
+        dataType: 'json',
+        // beforeSend: function () {
+        //
+        // },
         success: function (json) {
+            console.log('json:' + json);
+            console.log('json.code :' + json.code );
+            console.log('json.msg :' + json.msg );
             if (json.code == 1) {
-                location.href = json.data;
+                window.location.replace("http://localhost:10088/login/index");
             } else {
-                alert(json.data);
+                alert('123');
+                var data = eval('(' + json + ')');
+                var data1 = JSON.stringify(data);
+                console.log('data:' + data);
+                console.log('data1:' + data1);
+                console.log('data1:' + data1[0]['msg']);
+
                 if (10101 == json.code) {
                     $('#username').focus();
                 }
                 if (10102 == json.code) {
                     $('#password').focus();
+                } else {
+                    alert('json[code] = ' + json[code]);
                 }
             }
         },

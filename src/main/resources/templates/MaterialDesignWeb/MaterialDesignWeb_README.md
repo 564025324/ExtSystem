@@ -33,19 +33,19 @@ zheng.jtotop.js | 返回顶部插件  | [https://github.com/shuzheng/zheng.jtoto
 地址： [http://www.zhangshuzheng.cn/zhengAdmin](http://www.zhangshuzheng.cn/zhengAdmin "zhengAdmin")
 
 
-![预览效果图](resources/images/zheng-upms-theme.png)
+![预览效果图](../../static/images/zheng-upms-theme.png)
 
-![预览效果图](resources/images/zheng-cms-theme.png)
+![预览效果图](../../static/images/zheng-cms-theme.png)
 
-![预览效果图](resources/images/zheng-pay-theme.png)
+![预览效果图](../../static/images/zheng-pay-theme.png)
 
-![预览效果图](resources/images/zheng-ucenter-theme.png)
+![预览效果图](../../static/images/zheng-ucenter-theme.png)
 
-![预览效果图](resources/images/zheng-oss-theme.png)
+![预览效果图](../../static/images/zheng-oss-theme.png)
 
-![预览效果图](resources/images/zheng-cms-theme-m1.png)
+![预览效果图](../../static/images/zheng-cms-theme-m1.png)
 
-![预览效果图](resources/images/zheng-cms-theme-m2.png)
+![预览效果图](../../static/images/zheng-cms-theme-m2.png)
 
 # License
   MIT

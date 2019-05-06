@@ -26,3 +26,4 @@ insert into `user`(id, username, password, mobile, email,sex, nickname) VALUES(1
 insert into `user`(id, username, password, mobile, email,sex, nickname) VALUES(12, 'lisi12', '123456', '13918891675','mmc@163.com', 'm', 'lisi1');
 insert into `user`(id, username, password, mobile, email,sex, nickname) VALUES(13, 'lisi13', '123456', '13918891675','mmc@163.com', 'm', 'lisi1');
 insert into `user`(id, username, password, mobile, email,sex, nickname) VALUES(14, 'lisi14', '123456', '13918891675','mmc@163.com', 'm', 'lisi1');
+
