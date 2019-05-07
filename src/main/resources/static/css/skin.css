@@ -1,0 +1,76 @@
+/** skins **/
+
+/*藏金阁管理系统*/
+#cjg-manager-center #header {
+    background: #6539B4;
+}
+
+#cjg-manager-center .content_tab {
+    background: #6539B4;
+}
+
+#cjg-manager-center .s-profile > a {
+    background: url(static/images/zheng-ucenter.png) left top no-repeat;
+}
+
+/*用户管理系统*/
+#user-manager-center #header {
+    background: #0d94f1;
+}
+
+#user-manager-center .content_tab {
+    background: #0d94f1;
+}
+
+#user-manager-center .s-profile > a {
+    background: url(../images/right-manager-center.png) left top no-repeat;
+}
+
+/*微信接口管理*/
+#weixin-center-system #header {
+    background: #1bc526;
+}
+
+#weixin-center-system .content_tab {
+    background: #1bc526;
+}
+
+#weixin-center-system .s-profile > a {
+    background: url(static/images/zheng-cms.png) left top no-repeat;
+}
+
+#zheng-pay-admin #header {
+    background: #f0e1bf;
+}
+
+#zheng-pay-admin .content_tab {
+    background: #f0e1bf;
+}
+
+#zheng-pay-admin .s-profile > a {
+    background: url(static/images/zheng-pay.png) left top no-repeat;
+}
+
+#zheng-oss-web #header {
+    background: #0B8DE5;
+}
+
+#zheng-oss-web .content_tab {
+    background: #0B8DE5;
+}
+
+#zheng-oss-web .s-profile > a {
+    background: url(static/images/zheng-oss.png) left top no-repeat;
+}
+
+#test #header {
+    background: test;
+}
+
+#test .content_tab {
+    background: test;
+}
+
+#test .s-profile > a {
+    background: url(test) left top no-repeat;
+}
