@@ -1,7 +1,10 @@
 package com.extSystem.model;
 
+import lombok.Data;
+
 import java.util.Map;
 
+@Data
 public class JsonResult {
     private int code;
     private Map data;
@@ -12,35 +15,4 @@ public class JsonResult {
         this.hasError = true;
     }
 
-    public boolean isHasError() {
-        return hasError;
-    }
-
-    public void setHasError(boolean hasError) {
-        this.hasError = hasError;
-    }
-
-    public int getCode() {
-        return code;
-    }
-
-    public void setCode(int code) {
-        this.code = code;
-    }
-
-    public Map getData() {
-        return data;
-    }
-
-    public void setData(Map data) {
-        this.data = data;
-    }
-
-    public String getMsg() {
-        return msg;
-    }
-
-    public void setMsg(String msg) {
-        this.msg = msg;
-    }
 }

@@ -22,6 +22,10 @@ public class UserController {
     public String getUserList() {
 //        PageInfo<User> list = userServer.selectAll(2, 2);
         List<User> list = userServer.selectAll();
+        for (User u : list) {
+            System.out.println("username:" + u.getUsername());
+        }
+
         String result = JSONObject.toJSONString(list);
         System.out.println(result);
         return result;
