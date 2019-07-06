@@ -46,9 +46,9 @@ public class LoginController {
             value = requestMap.get(key);
             System.out.println(key + ":" + value.toString());
         }
-        jsonResult.setCode(1);
-        jsonResult.setMsg("登陆成功");
-        jsonResult.setData(requestMap);
+//        jsonResult.setCode(1);
+//        jsonResult.setMsg("登陆成功");
+//        jsonResult.setData(requestMap);
         request.getRequestDispatcher("/index.html");
 
         String jsonStr = JSONObject.toJSONString(jsonResult);
