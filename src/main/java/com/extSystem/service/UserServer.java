@@ -9,4 +9,6 @@ import java.util.List;
 public interface UserServer {
 
     List<User> selectAll();
+
+    User getUserById(Integer id);
 }

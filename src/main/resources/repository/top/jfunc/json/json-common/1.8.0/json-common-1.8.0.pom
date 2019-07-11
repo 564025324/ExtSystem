@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>top.jfunc.json</groupId>
+  <artifactId>json-common</artifactId>
+  <version>1.8.0</version>
+  <name>json-common</name>
+  <description>common json interface define and base impl with map and list</description>
+  <url>https://gitee.com/xxssyyyyssxx/json-common</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>xxssyyyyssxx</id>
+      <name>xiongshiyan</name>
+      <email>xxssyyyyssxx@126.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://gitee.com/xxssyyyyssxx/json-common.git</connection>
+    <developerConnection>https://gitee.com/xxssyyyyssxx/json-common.git</developerConnection>
+    <url>https://gitee.com/xxssyyyyssxx/json-common</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

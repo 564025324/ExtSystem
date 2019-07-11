@@ -24,6 +24,13 @@ public class UserServiceImpl implements UserServer {
 //        return list;
     }
 
+    @Override
+    public User getUserById(Integer id) {
+
+        return userDao.selectByPrimaryId(id);
+    }
+
+
 //    public PageInfo<User> selectAll(int pageNum, int pageSize) {
 //        PageHelper.startPage(pageNum, pageSize);
 //        List<User> listAll = selectAll();
